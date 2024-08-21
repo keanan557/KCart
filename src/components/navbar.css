@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    max-width: 100%;
+    height: 60px;
+    background-color: #c01010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+svg{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
