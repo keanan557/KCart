@@ -8,7 +8,7 @@ import { ShopContextProvider } from "./context/shop-context.jsx";
 export default function App(){
     return <div className="App">
         <ShopContextProvider>
-        <Router>
+        <Router basename="/KCart">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Shop />}/>
